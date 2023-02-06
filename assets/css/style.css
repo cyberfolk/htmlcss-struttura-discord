@@ -63,19 +63,11 @@ a {
     border: 1px black dashed;
 }
 
-.debug #secion_1 {
+.debug #section_1, #section_3 {
     background-color: var(--section-white-bg);
 }
 
-.debug #secion_2 {
-    background-color: var(--section-grey-bg);
-}
-
-.debug #secion_3 {
-    background-color: var(--section-white-bg);
-}
-
-.debug #secion_4 {
+.debug #section_2, #section_4 {
     background-color: var(--section-grey-bg);
 }
 
@@ -91,7 +83,7 @@ a {
     border: 1px black dashed;
 }
 
-.debug #secion_4 > .container {
+.debug #section_4 > .container {
     background-color: var(--section-only-container);
     height: var(--height-tmp);
 }
