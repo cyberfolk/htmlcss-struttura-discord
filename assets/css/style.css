@@ -68,6 +68,14 @@
     display: flex;
 }
 
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
+
 /* #endregion Utilities */
 
 /* #region app-header */
@@ -77,17 +85,14 @@
 
 #header_top > .container > #hd_logo {
     text-align: left;
-    flex-grow: 1;
 }
 
 #header_top > .container > #hd_link {
     text-align: center;
-    flex-grow: 3;
 }
 
 #header_top > .container > #hd_login {
     text-align: right;
-    flex-grow: 1;
 }
 
 #header_bottom > div {
