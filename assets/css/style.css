@@ -23,6 +23,8 @@
     --height-tmp: 300px;
     --logo-width: 200px;
     --logo-height: 30px;
+    --btn-login-bg: #FFFFFF;
+    --btn-sign_in-bg: #7983F5;
 }
 
 body {
@@ -170,8 +172,6 @@ a {
     padding: 0.2rem;
 }
 
-
-
 .col-8 {
     width: calc((100% / 12) * 8);
 }
@@ -190,7 +190,7 @@ a {
 
 /* #region app-header */
 
-#header_top > .container > .links {
+#header_top .links {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -201,6 +201,8 @@ a {
     margin: auto;
 }
 
+
+
 /* #endregion app-header */
 
 /* #region app-main */
@@ -210,6 +212,11 @@ a {
 /* #region app-footer */
 #footer_bottom > .container {
     justify-content: space-between;
+}
+
+button#sign_in {
+    background-color: var(--btn-sign_in-bg);
+    color: white;
 }
 
 /* #endregion app-footer */
