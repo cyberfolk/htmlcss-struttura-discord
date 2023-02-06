@@ -37,6 +37,15 @@
     border: 1px black dashed;
 }
 
+.debug #header_bottom {
+    background-color: var(--header_bottom-bg);
+}
+
+.debug #header_bottom > div {
+    background-color: var(--header_bottom-container);
+    height: 300px;
+}
+
 /* #endregion Debug */
 
 /* #region Utilities */
@@ -48,6 +57,11 @@
 .py-05 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+.py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .flex {
@@ -68,12 +82,17 @@
 
 #header_top > .container > #hd_link {
     text-align: center;
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 #header_top > .container > #hd_login {
     text-align: right;
     flex-grow: 1;
+}
+
+#header_bottom > div {
+    max-width: 800px;
+    margin: auto;
 }
 
 /* #endregion app-header */
