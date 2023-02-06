@@ -122,6 +122,12 @@ a {
     margin: auto;
 }
 
+.logo {
+    background-image: url("https://picsum.photos/200/30");
+}
+
+/* #region Bootstrap */
+
 .py-05 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -170,13 +176,13 @@ a {
     width: calc((100% / 12) * 2);
 }
 
+/* #endregion Bootstrap */
+
 /* #endregion Utilities */
 
 /* #region app-header */
 
-.logo {
-    background-image: url("https://picsum.photos/200/30");
-}
+
 
 #header_top > .container > .links {
     text-align: center;
