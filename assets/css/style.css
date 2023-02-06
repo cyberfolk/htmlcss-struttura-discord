@@ -7,24 +7,35 @@
 
 :root {
     --header_top-bg: #ADD8E6;
-    --header_top-content: #DAA520;
+    --header_top-container: #DAA520;
     --header_bottom-bg: #00008B;
-    --header_bottom-content: #EE82EE;
+    --header_bottom-container: #EE82EE;
     --section-white-bg: #FFFFFF;
     --section-grey-bg: #D3D3D3;
-    --section-big-content: #1E90FF;
-    --section-small-content: #FFC0CB;
-    --section-only-content: #228B22;
+    --section-big-container: #1E90FF;
+    --section-small-container: #FFC0CB;
+    --section-only-container: #228B22;
     --footer-bg: #23272A;
-    --footer_top-col_4-content: #F08080;
-    --footer_top-col_2-content: #23272A;
-    --footer_bottom-content: #7FFFD4;
+    --footer_top-col_4-container: #F08080;
+    --footer_top-col_2-container: #23272A;
+    --footer_bottom-container: #7FFFD4;
     --footer_bottom-element: #FFB6C1;
 }
 
 /* #endregion Common Rules */
 
 /* #region Debug */
+.debug #header_top {
+    background-color: var(--header_top-bg);
+}
+
+.debug #header_top > .container {
+    background-color: var(--header_top-container);
+}
+
+.debug #header_top > .container > div {
+    border: 1px black dashed;
+}
 
 /* #endregion Debug */
 
@@ -34,9 +45,36 @@
     margin: auto;
 }
 
+.py-05 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
 /* #endregion Utilities */
 
 /* #region app-header */
+#header_top > .container > div {
+    padding: 0.2rem;
+}
+
+#header_top > .container > #hd_logo {
+    text-align: left;
+    flex-grow: 1;
+}
+
+#header_top > .container > #hd_link {
+    text-align: center;
+    flex-grow: 2;
+}
+
+#header_top > .container > #hd_login {
+    text-align: right;
+    flex-grow: 1;
+}
 
 /* #endregion app-header */
 
