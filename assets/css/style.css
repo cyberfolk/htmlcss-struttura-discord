@@ -23,6 +23,17 @@
     --height-tmp: 300px;
 }
 
+button {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* #endregion Common Rules */
 
 /* #region Debug */
@@ -34,7 +45,7 @@
     background-color: var(--header_top-container);
 }
 
-.debug #header_top > .container > .hd_elements {
+.debug #header_top > .container > div {
     border: 1px black dashed;
 }
 
@@ -138,6 +149,11 @@
     margin-bottom: 1rem;
 }
 
+.mx-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .p-02 {
     padding: 0.2rem;
 }
@@ -162,16 +178,15 @@
 
 /* #region app-header */
 
-#header_top > .container > #hd_logo {
-    text-align: left;
+.logo {
+    background-image: url("https://picsum.photos/200/30");
 }
 
-#header_top > .container > #hd_links {
+#header_top > .container > .links {
     text-align: center;
-}
-
-#header_top > .container > #hd_login {
-    text-align: right;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #header_bottom > .container {
