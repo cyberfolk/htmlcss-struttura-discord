@@ -1,0 +1,49 @@
+/* #region Common Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header_top-bg: #ADD8E6;
+    --header_top-content: #DAA520;
+    --header_bottom-bg: #00008B;
+    --header_bottom-content: #EE82EE;
+    --section-white-bg: #FFFFFF;
+    --section-grey-bg: #D3D3D3;
+    --section-big-content: #1E90FF;
+    --section-small-content: #FFC0CB;
+    --section-only-content: #228B22;
+    --footer-bg: #23272A;
+    --footer_top-col_4-content: #F08080;
+    --footer_top-col_2-content: #23272A;
+    --footer_bottom-content: #7FFFD4;
+    --footer_bottom-element: #FFB6C1;
+}
+
+/* #endregion Common Rules */
+
+/* #region Debug */
+
+/* #endregion Debug */
+
+/* #region Utilities */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* #endregion Utilities */
+
+/* #region app-header */
+
+/* #endregion app-header */
+
+/* #region app-main */
+
+/* #endregion app-main */
+
+/* #region app-footer */
+
+/* #endregion app-footer */
