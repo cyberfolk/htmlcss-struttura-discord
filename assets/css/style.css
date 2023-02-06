@@ -21,6 +21,8 @@
     --footer_bottom-container: #7FFFD4;
     --footer_bottom-element: #FFB6C1;
     --height-tmp: 300px;
+    --logo-width: 200px;
+    --logo-height: 30px;
 }
 
 body {
@@ -124,6 +126,14 @@ a {
 
 .logo {
     background-image: url("https://picsum.photos/200/30");
+    height: var(--logo-height);
+    width: var(--logo-width);
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }
 
 /* #region Bootstrap */
@@ -160,9 +170,7 @@ a {
     padding: 0.2rem;
 }
 
-.flex {
-    display: flex;
-}
+
 
 .col-8 {
     width: calc((100% / 12) * 8);
@@ -182,13 +190,10 @@ a {
 
 /* #region app-header */
 
-
-
 #header_top > .container > .links {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 #header_bottom > .container {
