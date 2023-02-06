@@ -20,6 +20,7 @@
     --footer_top-col_2-container: #23272A;
     --footer_bottom-container: #7FFFD4;
     --footer_bottom-element: #FFB6C1;
+    --height-tmp: 300px;
 }
 
 /* #endregion Common Rules */
@@ -43,8 +44,40 @@
 
 .debug #header_bottom > div {
     background-color: var(--header_bottom-container);
-    height: 300px;
+    height: var(--height-tmp);
 }
+
+.debug #secion_1 {
+    background-color: var(--section-white-bg);
+}
+
+.debug #secion_2 {
+    background-color: var(--section-grey-bg);
+}
+
+.debug #secion_3 {
+    background-color: var(--section-white-bg);
+}
+
+.debug #secion_4 {
+    background-color: var(--section-grey-bg);
+}
+
+.debug .big_container {
+    background-color: var(--section-big-container);
+    height: var(--height-tmp);
+}
+
+.debug .small_container {
+    background-color: var(--section-small-container);
+    height: var(--height-tmp);
+}
+
+.debug #secion_4 > .container {
+    background-color: var(--section-only-container);
+    height: var(--height-tmp);
+}
+
 
 /* #endregion Debug */
 
@@ -70,6 +103,10 @@
 
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
 }
 
 .col-2 {
