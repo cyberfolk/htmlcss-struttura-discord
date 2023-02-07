@@ -20,7 +20,7 @@
     --footer_top-col_2-container: #20B2AA;
     --footer_bottom-container: #7FFFD4;
     --footer_bottom-element: #FFB6C1;
-    --height-tmp: 300px;
+    --height-tmp: 400px;
     --logo-width: 200px;
     --logo-height: 30px;
     --btn-login-bg: #FFFFFF;
@@ -216,6 +216,10 @@ a {
 #header_bottom p {
     margin: 1rem 0;
     color: white;
+}
+
+#section_1 .small_container {
+    padding: 0 4rem;
 }
 
 #section_1 h1 {
