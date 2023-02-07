@@ -42,6 +42,11 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
 /* #endregion Common Rules */
 
 /* #region Debug */
@@ -176,8 +181,16 @@ a {
     width: calc((100% / 12) * 8);
 }
 
+.col-9 {
+    width: calc((100% / 12) * 9);
+}
+
 .col-4 {
     width: calc((100% / 12) * 4);
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
 }
 
 .col-2 {
@@ -207,29 +220,20 @@ a {
     color: white;
 }
 
-#header_bottom h1 {
-    font-size: 2rem;
-    color: white;
-    margin: 2rem 0;
-}
-
 #header_bottom p {
-    margin: 1rem 0;
     color: white;
 }
 
-#section_1 .small_container {
-    padding: 0 4rem;
-}
-
-#section_1 h1 {
-    font-size: 2rem;
-    margin: 1rem 0;
+#header_bottom h1 {
+    color: white;
 }
 
 /* #endregion app-header */
 
 /* #region app-main */
+#section_4 > .container {
+    text-align: center;
+}
 
 /* #endregion app-main */
 
