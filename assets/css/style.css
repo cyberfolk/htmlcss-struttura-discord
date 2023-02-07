@@ -218,6 +218,11 @@ a {
     color: white;
 }
 
+#section_1 h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
 /* #endregion app-header */
 
 /* #region app-main */
