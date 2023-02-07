@@ -197,8 +197,25 @@ a {
 }
 
 #header_bottom > .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
+    text-align: center;
+}
+
+#header_bottom #open_in_browser {
+    background-color: #24242c;
+    color: white;
+}
+
+#header_bottom h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 2rem 0;
+}
+
+#header_bottom p {
+    margin: 1rem 0;
+    color: white;
 }
 
 /* #endregion app-header */
